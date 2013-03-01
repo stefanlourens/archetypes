@@ -26,7 +26,7 @@ mvn jetty:run
 
 ```
 
-The server defaults to (http://localhost:8080)
+The server defaults to <http://localhost:8080>
 
 
 # Dependencies
