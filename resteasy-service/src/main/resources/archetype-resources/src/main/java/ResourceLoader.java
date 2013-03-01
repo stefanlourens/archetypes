@@ -8,10 +8,6 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 import ${package}.resources.Echo;
 
-/**
- *
- * @author Stefan Lourens <stefan.lourens@gmail.com>
- */
 public class ResourceLoader extends Application {
 
     @Override
