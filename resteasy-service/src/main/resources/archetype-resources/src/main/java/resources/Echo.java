@@ -16,7 +16,7 @@ public class Echo {
     @GET
     @Path("/{message}")
     @Produces(TEXT_PLAIN)
-    public String echo(@PathParam("message") String message) {
+    public String echo(@PathParam("message") final String message) {
         return message;
     }
 }
