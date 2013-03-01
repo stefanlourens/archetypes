@@ -22,7 +22,6 @@ Once your project has been created, you can test it using the maven jetty plugin
 ```
 cd project-dir
 mvn jetty:run
-
 ```
 
 The server defaults to <http://localhost:8080>
