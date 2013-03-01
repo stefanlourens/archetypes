@@ -10,13 +10,12 @@ import javax.ws.rs.Produces;
 
 import static javax.ws.rs.core.MediaType.TEXT_PLAIN;
 
-@Path("/")
+@Path("/echo")
 public class Echo {
 
-
     @GET
+    @Path("/{message}")
     @Produces(TEXT_PLAIN)
-    @Path("/echo/{message}")
     public String echo(@PathParam("message") String message) {
         return message;
     }
